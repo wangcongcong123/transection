@@ -1,0 +1,839 @@
+2020-09-28 23:37:18,671.671 INFO configuration_utils - get_config_dict: loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/facebook/bart-base/config.json from cache at /home/congcong/.cache/torch/transformers/09f4fcaeaf785dd3b97b085d6e3510c7081f586ec8e75981683c6299c0f81d9d.7971e1121ade496bcc14f370f5d7a2d9365d81c2b3fffe81ff8f09958fd77370
+2020-09-28 23:37:18,671.671 INFO configuration_utils - from_dict: Model config BartConfig {
+  "activation_dropout": 0.0,
+  "activation_function": "gelu",
+  "add_bias_logits": false,
+  "add_final_layer_norm": false,
+  "architectures": [
+    "BartForConditionalGeneration"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 0,
+  "classif_dropout": 0.0,
+  "d_model": 768,
+  "decoder_attention_heads": 12,
+  "decoder_ffn_dim": 3072,
+  "decoder_layerdrop": 0.0,
+  "decoder_layers": 6,
+  "dropout": 0.1,
+  "encoder_attention_heads": 12,
+  "encoder_ffn_dim": 3072,
+  "encoder_layerdrop": 0.0,
+  "encoder_layers": 6,
+  "eos_token_id": 2,
+  "extra_pos_embeddings": 2,
+  "force_bos_token_to_be_generated": false,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1",
+    "2": "LABEL_2"
+  },
+  "init_std": 0.02,
+  "is_encoder_decoder": true,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1,
+    "LABEL_2": 2
+  },
+  "max_position_embeddings": 1024,
+  "model_type": "bart",
+  "normalize_before": false,
+  "normalize_embedding": true,
+  "num_hidden_layers": 6,
+  "pad_token_id": 1,
+  "scale_embedding": false,
+  "static_position_embeddings": false,
+  "vocab_size": 50265
+}
+
+2020-09-28 23:37:19,757.757 INFO tokenization_utils_base - _from_pretrained: loading file https://s3.amazonaws.com/models.huggingface.co/bert/roberta-large-vocab.json from cache at /home/congcong/.cache/torch/transformers/1ae1f5b6e2b22b25ccc04c000bb79ca847aa226d0761536b011cf7e5868f0655.ef00af9e673c7160b4d41cfda1f48c5f4cba57d5142754525572a846a1ab1b9b
+2020-09-28 23:37:19,757.757 INFO tokenization_utils_base - _from_pretrained: loading file https://s3.amazonaws.com/models.huggingface.co/bert/roberta-large-merges.txt from cache at /home/congcong/.cache/torch/transformers/f8f83199a6270d582d6245dc100e99c4155de81c9745c6248077018fe01abcfb.70bec105b4158ed9a1747fea67a43f5dee97855c64d62b6ec3742f4cfdb5feda
+2020-09-28 23:37:20,501.501 INFO configuration_utils - get_config_dict: loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/facebook/bart-base/config.json from cache at /home/congcong/.cache/torch/transformers/09f4fcaeaf785dd3b97b085d6e3510c7081f586ec8e75981683c6299c0f81d9d.7971e1121ade496bcc14f370f5d7a2d9365d81c2b3fffe81ff8f09958fd77370
+2020-09-28 23:37:20,501.501 INFO configuration_utils - from_dict: Model config BartConfig {
+  "activation_dropout": 0.0,
+  "activation_function": "gelu",
+  "add_bias_logits": false,
+  "add_final_layer_norm": false,
+  "architectures": [
+    "BartForConditionalGeneration"
+  ],
+  "attention_dropout": 0.0,
+  "bos_token_id": 0,
+  "classif_dropout": 0.0,
+  "d_model": 768,
+  "decoder_attention_heads": 12,
+  "decoder_ffn_dim": 3072,
+  "decoder_layerdrop": 0.0,
+  "decoder_layers": 6,
+  "dropout": 0.1,
+  "encoder_attention_heads": 12,
+  "encoder_ffn_dim": 3072,
+  "encoder_layerdrop": 0.0,
+  "encoder_layers": 6,
+  "eos_token_id": 2,
+  "extra_pos_embeddings": 2,
+  "force_bos_token_to_be_generated": false,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1",
+    "2": "LABEL_2"
+  },
+  "init_std": 0.02,
+  "is_encoder_decoder": true,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1,
+    "LABEL_2": 2
+  },
+  "max_position_embeddings": 1024,
+  "model_type": "bart",
+  "normalize_before": false,
+  "normalize_embedding": true,
+  "num_hidden_layers": 6,
+  "pad_token_id": 1,
+  "scale_embedding": false,
+  "static_position_embeddings": false,
+  "vocab_size": 50265
+}
+
+2020-09-28 23:37:20,681.681 INFO modeling_utils - from_pretrained: loading weights file https://cdn.huggingface.co/facebook/bart-base/pytorch_model.bin from cache at /home/congcong/.cache/torch/transformers/566c05fb6983817e8ad7a4fa51e3099fe9caa3b31730f964bc5198d71c677523.0a3d95c18c1e434448941bc25accea7b122882be6526fb67c8e8fb6d5ebc711c
+2020-09-28 23:37:23,127.127 INFO modeling_utils - from_pretrained: All model checkpoint weights were used when initializing BartForConditionalGeneration.
+
+2020-09-28 23:37:23,127.127 INFO modeling_utils - from_pretrained: All the weights of BartForConditionalGeneration were initialized from the model checkpoint at facebook/bart-base.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use BartForConditionalGeneration for predictions without further training.
+2020-09-28 23:37:25,817.817 INFO trainer - print_model_state_dict: final_logits_bias	torch.Size([1, 50265])
+2020-09-28 23:37:25,818.818 INFO trainer - print_model_state_dict: model.shared.weight	torch.Size([50265, 768])
+2020-09-28 23:37:25,818.818 INFO trainer - print_model_state_dict: model.encoder.embed_tokens.weight	torch.Size([50265, 768])
+2020-09-28 23:37:25,819.819 INFO trainer - print_model_state_dict: model.encoder.embed_positions.weight	torch.Size([1026, 768])
+2020-09-28 23:37:25,819.819 INFO trainer - print_model_state_dict: model.encoder.layers.0.self_attn.k_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,820.820 INFO trainer - print_model_state_dict: model.encoder.layers.0.self_attn.k_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,820.820 INFO trainer - print_model_state_dict: model.encoder.layers.0.self_attn.v_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,821.821 INFO trainer - print_model_state_dict: model.encoder.layers.0.self_attn.v_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,821.821 INFO trainer - print_model_state_dict: model.encoder.layers.0.self_attn.q_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,822.822 INFO trainer - print_model_state_dict: model.encoder.layers.0.self_attn.q_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,822.822 INFO trainer - print_model_state_dict: model.encoder.layers.0.self_attn.out_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,822.822 INFO trainer - print_model_state_dict: model.encoder.layers.0.self_attn.out_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,823.823 INFO trainer - print_model_state_dict: model.encoder.layers.0.self_attn_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,823.823 INFO trainer - print_model_state_dict: model.encoder.layers.0.self_attn_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,824.824 INFO trainer - print_model_state_dict: model.encoder.layers.0.fc1.weight	torch.Size([3072, 768])
+2020-09-28 23:37:25,824.824 INFO trainer - print_model_state_dict: model.encoder.layers.0.fc1.bias	torch.Size([3072])
+2020-09-28 23:37:25,825.825 INFO trainer - print_model_state_dict: model.encoder.layers.0.fc2.weight	torch.Size([768, 3072])
+2020-09-28 23:37:25,825.825 INFO trainer - print_model_state_dict: model.encoder.layers.0.fc2.bias	torch.Size([768])
+2020-09-28 23:37:25,826.826 INFO trainer - print_model_state_dict: model.encoder.layers.0.final_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,826.826 INFO trainer - print_model_state_dict: model.encoder.layers.0.final_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,827.827 INFO trainer - print_model_state_dict: model.encoder.layers.1.self_attn.k_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,827.827 INFO trainer - print_model_state_dict: model.encoder.layers.1.self_attn.k_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,828.828 INFO trainer - print_model_state_dict: model.encoder.layers.1.self_attn.v_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,828.828 INFO trainer - print_model_state_dict: model.encoder.layers.1.self_attn.v_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,829.829 INFO trainer - print_model_state_dict: model.encoder.layers.1.self_attn.q_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,829.829 INFO trainer - print_model_state_dict: model.encoder.layers.1.self_attn.q_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,829.829 INFO trainer - print_model_state_dict: model.encoder.layers.1.self_attn.out_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,830.830 INFO trainer - print_model_state_dict: model.encoder.layers.1.self_attn.out_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,830.830 INFO trainer - print_model_state_dict: model.encoder.layers.1.self_attn_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,831.831 INFO trainer - print_model_state_dict: model.encoder.layers.1.self_attn_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,831.831 INFO trainer - print_model_state_dict: model.encoder.layers.1.fc1.weight	torch.Size([3072, 768])
+2020-09-28 23:37:25,832.832 INFO trainer - print_model_state_dict: model.encoder.layers.1.fc1.bias	torch.Size([3072])
+2020-09-28 23:37:25,832.832 INFO trainer - print_model_state_dict: model.encoder.layers.1.fc2.weight	torch.Size([768, 3072])
+2020-09-28 23:37:25,833.833 INFO trainer - print_model_state_dict: model.encoder.layers.1.fc2.bias	torch.Size([768])
+2020-09-28 23:37:25,833.833 INFO trainer - print_model_state_dict: model.encoder.layers.1.final_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,834.834 INFO trainer - print_model_state_dict: model.encoder.layers.1.final_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,834.834 INFO trainer - print_model_state_dict: model.encoder.layers.2.self_attn.k_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,835.835 INFO trainer - print_model_state_dict: model.encoder.layers.2.self_attn.k_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,835.835 INFO trainer - print_model_state_dict: model.encoder.layers.2.self_attn.v_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,836.836 INFO trainer - print_model_state_dict: model.encoder.layers.2.self_attn.v_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,836.836 INFO trainer - print_model_state_dict: model.encoder.layers.2.self_attn.q_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,836.836 INFO trainer - print_model_state_dict: model.encoder.layers.2.self_attn.q_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,837.837 INFO trainer - print_model_state_dict: model.encoder.layers.2.self_attn.out_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,837.837 INFO trainer - print_model_state_dict: model.encoder.layers.2.self_attn.out_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,838.838 INFO trainer - print_model_state_dict: model.encoder.layers.2.self_attn_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,838.838 INFO trainer - print_model_state_dict: model.encoder.layers.2.self_attn_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,839.839 INFO trainer - print_model_state_dict: model.encoder.layers.2.fc1.weight	torch.Size([3072, 768])
+2020-09-28 23:37:25,839.839 INFO trainer - print_model_state_dict: model.encoder.layers.2.fc1.bias	torch.Size([3072])
+2020-09-28 23:37:25,840.840 INFO trainer - print_model_state_dict: model.encoder.layers.2.fc2.weight	torch.Size([768, 3072])
+2020-09-28 23:37:25,840.840 INFO trainer - print_model_state_dict: model.encoder.layers.2.fc2.bias	torch.Size([768])
+2020-09-28 23:37:25,841.841 INFO trainer - print_model_state_dict: model.encoder.layers.2.final_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,841.841 INFO trainer - print_model_state_dict: model.encoder.layers.2.final_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,842.842 INFO trainer - print_model_state_dict: model.encoder.layers.3.self_attn.k_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,842.842 INFO trainer - print_model_state_dict: model.encoder.layers.3.self_attn.k_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,843.843 INFO trainer - print_model_state_dict: model.encoder.layers.3.self_attn.v_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,843.843 INFO trainer - print_model_state_dict: model.encoder.layers.3.self_attn.v_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,843.843 INFO trainer - print_model_state_dict: model.encoder.layers.3.self_attn.q_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,844.844 INFO trainer - print_model_state_dict: model.encoder.layers.3.self_attn.q_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,844.844 INFO trainer - print_model_state_dict: model.encoder.layers.3.self_attn.out_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,845.845 INFO trainer - print_model_state_dict: model.encoder.layers.3.self_attn.out_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,845.845 INFO trainer - print_model_state_dict: model.encoder.layers.3.self_attn_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,846.846 INFO trainer - print_model_state_dict: model.encoder.layers.3.self_attn_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,846.846 INFO trainer - print_model_state_dict: model.encoder.layers.3.fc1.weight	torch.Size([3072, 768])
+2020-09-28 23:37:25,847.847 INFO trainer - print_model_state_dict: model.encoder.layers.3.fc1.bias	torch.Size([3072])
+2020-09-28 23:37:25,847.847 INFO trainer - print_model_state_dict: model.encoder.layers.3.fc2.weight	torch.Size([768, 3072])
+2020-09-28 23:37:25,848.848 INFO trainer - print_model_state_dict: model.encoder.layers.3.fc2.bias	torch.Size([768])
+2020-09-28 23:37:25,848.848 INFO trainer - print_model_state_dict: model.encoder.layers.3.final_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,849.849 INFO trainer - print_model_state_dict: model.encoder.layers.3.final_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,849.849 INFO trainer - print_model_state_dict: model.encoder.layers.4.self_attn.k_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,850.850 INFO trainer - print_model_state_dict: model.encoder.layers.4.self_attn.k_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,850.850 INFO trainer - print_model_state_dict: model.encoder.layers.4.self_attn.v_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,850.850 INFO trainer - print_model_state_dict: model.encoder.layers.4.self_attn.v_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,851.851 INFO trainer - print_model_state_dict: model.encoder.layers.4.self_attn.q_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,851.851 INFO trainer - print_model_state_dict: model.encoder.layers.4.self_attn.q_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,852.852 INFO trainer - print_model_state_dict: model.encoder.layers.4.self_attn.out_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,852.852 INFO trainer - print_model_state_dict: model.encoder.layers.4.self_attn.out_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,853.853 INFO trainer - print_model_state_dict: model.encoder.layers.4.self_attn_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,853.853 INFO trainer - print_model_state_dict: model.encoder.layers.4.self_attn_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,854.854 INFO trainer - print_model_state_dict: model.encoder.layers.4.fc1.weight	torch.Size([3072, 768])
+2020-09-28 23:37:25,854.854 INFO trainer - print_model_state_dict: model.encoder.layers.4.fc1.bias	torch.Size([3072])
+2020-09-28 23:37:25,855.855 INFO trainer - print_model_state_dict: model.encoder.layers.4.fc2.weight	torch.Size([768, 3072])
+2020-09-28 23:37:25,855.855 INFO trainer - print_model_state_dict: model.encoder.layers.4.fc2.bias	torch.Size([768])
+2020-09-28 23:37:25,856.856 INFO trainer - print_model_state_dict: model.encoder.layers.4.final_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,856.856 INFO trainer - print_model_state_dict: model.encoder.layers.4.final_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,857.857 INFO trainer - print_model_state_dict: model.encoder.layers.5.self_attn.k_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,857.857 INFO trainer - print_model_state_dict: model.encoder.layers.5.self_attn.k_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,857.857 INFO trainer - print_model_state_dict: model.encoder.layers.5.self_attn.v_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,858.858 INFO trainer - print_model_state_dict: model.encoder.layers.5.self_attn.v_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,858.858 INFO trainer - print_model_state_dict: model.encoder.layers.5.self_attn.q_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,859.859 INFO trainer - print_model_state_dict: model.encoder.layers.5.self_attn.q_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,859.859 INFO trainer - print_model_state_dict: model.encoder.layers.5.self_attn.out_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,860.860 INFO trainer - print_model_state_dict: model.encoder.layers.5.self_attn.out_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,860.860 INFO trainer - print_model_state_dict: model.encoder.layers.5.self_attn_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,861.861 INFO trainer - print_model_state_dict: model.encoder.layers.5.self_attn_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,861.861 INFO trainer - print_model_state_dict: model.encoder.layers.5.fc1.weight	torch.Size([3072, 768])
+2020-09-28 23:37:25,862.862 INFO trainer - print_model_state_dict: model.encoder.layers.5.fc1.bias	torch.Size([3072])
+2020-09-28 23:37:25,862.862 INFO trainer - print_model_state_dict: model.encoder.layers.5.fc2.weight	torch.Size([768, 3072])
+2020-09-28 23:37:25,863.863 INFO trainer - print_model_state_dict: model.encoder.layers.5.fc2.bias	torch.Size([768])
+2020-09-28 23:37:25,863.863 INFO trainer - print_model_state_dict: model.encoder.layers.5.final_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,864.864 INFO trainer - print_model_state_dict: model.encoder.layers.5.final_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,864.864 INFO trainer - print_model_state_dict: model.encoder.layernorm_embedding.weight	torch.Size([768])
+2020-09-28 23:37:25,864.864 INFO trainer - print_model_state_dict: model.encoder.layernorm_embedding.bias	torch.Size([768])
+2020-09-28 23:37:25,865.865 INFO trainer - print_model_state_dict: model.decoder.embed_tokens.weight	torch.Size([50265, 768])
+2020-09-28 23:37:25,865.865 INFO trainer - print_model_state_dict: model.decoder.embed_positions.weight	torch.Size([1026, 768])
+2020-09-28 23:37:25,866.866 INFO trainer - print_model_state_dict: model.decoder.layers.0.self_attn.k_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,866.866 INFO trainer - print_model_state_dict: model.decoder.layers.0.self_attn.k_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,867.867 INFO trainer - print_model_state_dict: model.decoder.layers.0.self_attn.v_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,867.867 INFO trainer - print_model_state_dict: model.decoder.layers.0.self_attn.v_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,868.868 INFO trainer - print_model_state_dict: model.decoder.layers.0.self_attn.q_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,868.868 INFO trainer - print_model_state_dict: model.decoder.layers.0.self_attn.q_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,869.869 INFO trainer - print_model_state_dict: model.decoder.layers.0.self_attn.out_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,869.869 INFO trainer - print_model_state_dict: model.decoder.layers.0.self_attn.out_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,870.870 INFO trainer - print_model_state_dict: model.decoder.layers.0.self_attn_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,870.870 INFO trainer - print_model_state_dict: model.decoder.layers.0.self_attn_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,871.871 INFO trainer - print_model_state_dict: model.decoder.layers.0.encoder_attn.k_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,871.871 INFO trainer - print_model_state_dict: model.decoder.layers.0.encoder_attn.k_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,872.872 INFO trainer - print_model_state_dict: model.decoder.layers.0.encoder_attn.v_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,872.872 INFO trainer - print_model_state_dict: model.decoder.layers.0.encoder_attn.v_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,872.872 INFO trainer - print_model_state_dict: model.decoder.layers.0.encoder_attn.q_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,873.873 INFO trainer - print_model_state_dict: model.decoder.layers.0.encoder_attn.q_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,873.873 INFO trainer - print_model_state_dict: model.decoder.layers.0.encoder_attn.out_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,874.874 INFO trainer - print_model_state_dict: model.decoder.layers.0.encoder_attn.out_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,874.874 INFO trainer - print_model_state_dict: model.decoder.layers.0.encoder_attn_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,875.875 INFO trainer - print_model_state_dict: model.decoder.layers.0.encoder_attn_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,875.875 INFO trainer - print_model_state_dict: model.decoder.layers.0.fc1.weight	torch.Size([3072, 768])
+2020-09-28 23:37:25,876.876 INFO trainer - print_model_state_dict: model.decoder.layers.0.fc1.bias	torch.Size([3072])
+2020-09-28 23:37:25,876.876 INFO trainer - print_model_state_dict: model.decoder.layers.0.fc2.weight	torch.Size([768, 3072])
+2020-09-28 23:37:25,877.877 INFO trainer - print_model_state_dict: model.decoder.layers.0.fc2.bias	torch.Size([768])
+2020-09-28 23:37:25,877.877 INFO trainer - print_model_state_dict: model.decoder.layers.0.final_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,878.878 INFO trainer - print_model_state_dict: model.decoder.layers.0.final_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,878.878 INFO trainer - print_model_state_dict: model.decoder.layers.1.self_attn.k_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,879.879 INFO trainer - print_model_state_dict: model.decoder.layers.1.self_attn.k_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,879.879 INFO trainer - print_model_state_dict: model.decoder.layers.1.self_attn.v_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,879.879 INFO trainer - print_model_state_dict: model.decoder.layers.1.self_attn.v_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,880.880 INFO trainer - print_model_state_dict: model.decoder.layers.1.self_attn.q_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,880.880 INFO trainer - print_model_state_dict: model.decoder.layers.1.self_attn.q_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,881.881 INFO trainer - print_model_state_dict: model.decoder.layers.1.self_attn.out_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,881.881 INFO trainer - print_model_state_dict: model.decoder.layers.1.self_attn.out_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,882.882 INFO trainer - print_model_state_dict: model.decoder.layers.1.self_attn_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,882.882 INFO trainer - print_model_state_dict: model.decoder.layers.1.self_attn_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,883.883 INFO trainer - print_model_state_dict: model.decoder.layers.1.encoder_attn.k_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,883.883 INFO trainer - print_model_state_dict: model.decoder.layers.1.encoder_attn.k_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,884.884 INFO trainer - print_model_state_dict: model.decoder.layers.1.encoder_attn.v_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,884.884 INFO trainer - print_model_state_dict: model.decoder.layers.1.encoder_attn.v_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,885.885 INFO trainer - print_model_state_dict: model.decoder.layers.1.encoder_attn.q_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,885.885 INFO trainer - print_model_state_dict: model.decoder.layers.1.encoder_attn.q_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,886.886 INFO trainer - print_model_state_dict: model.decoder.layers.1.encoder_attn.out_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,886.886 INFO trainer - print_model_state_dict: model.decoder.layers.1.encoder_attn.out_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,886.886 INFO trainer - print_model_state_dict: model.decoder.layers.1.encoder_attn_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,887.887 INFO trainer - print_model_state_dict: model.decoder.layers.1.encoder_attn_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,887.887 INFO trainer - print_model_state_dict: model.decoder.layers.1.fc1.weight	torch.Size([3072, 768])
+2020-09-28 23:37:25,888.888 INFO trainer - print_model_state_dict: model.decoder.layers.1.fc1.bias	torch.Size([3072])
+2020-09-28 23:37:25,888.888 INFO trainer - print_model_state_dict: model.decoder.layers.1.fc2.weight	torch.Size([768, 3072])
+2020-09-28 23:37:25,889.889 INFO trainer - print_model_state_dict: model.decoder.layers.1.fc2.bias	torch.Size([768])
+2020-09-28 23:37:25,889.889 INFO trainer - print_model_state_dict: model.decoder.layers.1.final_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,890.890 INFO trainer - print_model_state_dict: model.decoder.layers.1.final_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,890.890 INFO trainer - print_model_state_dict: model.decoder.layers.2.self_attn.k_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,891.891 INFO trainer - print_model_state_dict: model.decoder.layers.2.self_attn.k_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,891.891 INFO trainer - print_model_state_dict: model.decoder.layers.2.self_attn.v_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,892.892 INFO trainer - print_model_state_dict: model.decoder.layers.2.self_attn.v_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,892.892 INFO trainer - print_model_state_dict: model.decoder.layers.2.self_attn.q_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,893.893 INFO trainer - print_model_state_dict: model.decoder.layers.2.self_attn.q_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,893.893 INFO trainer - print_model_state_dict: model.decoder.layers.2.self_attn.out_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,893.893 INFO trainer - print_model_state_dict: model.decoder.layers.2.self_attn.out_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,894.894 INFO trainer - print_model_state_dict: model.decoder.layers.2.self_attn_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,894.894 INFO trainer - print_model_state_dict: model.decoder.layers.2.self_attn_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,895.895 INFO trainer - print_model_state_dict: model.decoder.layers.2.encoder_attn.k_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,895.895 INFO trainer - print_model_state_dict: model.decoder.layers.2.encoder_attn.k_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,896.896 INFO trainer - print_model_state_dict: model.decoder.layers.2.encoder_attn.v_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,896.896 INFO trainer - print_model_state_dict: model.decoder.layers.2.encoder_attn.v_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,897.897 INFO trainer - print_model_state_dict: model.decoder.layers.2.encoder_attn.q_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,897.897 INFO trainer - print_model_state_dict: model.decoder.layers.2.encoder_attn.q_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,898.898 INFO trainer - print_model_state_dict: model.decoder.layers.2.encoder_attn.out_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,898.898 INFO trainer - print_model_state_dict: model.decoder.layers.2.encoder_attn.out_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,899.899 INFO trainer - print_model_state_dict: model.decoder.layers.2.encoder_attn_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,899.899 INFO trainer - print_model_state_dict: model.decoder.layers.2.encoder_attn_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,900.900 INFO trainer - print_model_state_dict: model.decoder.layers.2.fc1.weight	torch.Size([3072, 768])
+2020-09-28 23:37:25,900.900 INFO trainer - print_model_state_dict: model.decoder.layers.2.fc1.bias	torch.Size([3072])
+2020-09-28 23:37:25,901.901 INFO trainer - print_model_state_dict: model.decoder.layers.2.fc2.weight	torch.Size([768, 3072])
+2020-09-28 23:37:25,901.901 INFO trainer - print_model_state_dict: model.decoder.layers.2.fc2.bias	torch.Size([768])
+2020-09-28 23:37:25,901.901 INFO trainer - print_model_state_dict: model.decoder.layers.2.final_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,902.902 INFO trainer - print_model_state_dict: model.decoder.layers.2.final_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,902.902 INFO trainer - print_model_state_dict: model.decoder.layers.3.self_attn.k_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,903.903 INFO trainer - print_model_state_dict: model.decoder.layers.3.self_attn.k_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,903.903 INFO trainer - print_model_state_dict: model.decoder.layers.3.self_attn.v_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,904.904 INFO trainer - print_model_state_dict: model.decoder.layers.3.self_attn.v_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,904.904 INFO trainer - print_model_state_dict: model.decoder.layers.3.self_attn.q_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,905.905 INFO trainer - print_model_state_dict: model.decoder.layers.3.self_attn.q_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,905.905 INFO trainer - print_model_state_dict: model.decoder.layers.3.self_attn.out_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,906.906 INFO trainer - print_model_state_dict: model.decoder.layers.3.self_attn.out_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,906.906 INFO trainer - print_model_state_dict: model.decoder.layers.3.self_attn_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,907.907 INFO trainer - print_model_state_dict: model.decoder.layers.3.self_attn_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,907.907 INFO trainer - print_model_state_dict: model.decoder.layers.3.encoder_attn.k_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,908.908 INFO trainer - print_model_state_dict: model.decoder.layers.3.encoder_attn.k_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,908.908 INFO trainer - print_model_state_dict: model.decoder.layers.3.encoder_attn.v_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,908.908 INFO trainer - print_model_state_dict: model.decoder.layers.3.encoder_attn.v_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,909.909 INFO trainer - print_model_state_dict: model.decoder.layers.3.encoder_attn.q_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,909.909 INFO trainer - print_model_state_dict: model.decoder.layers.3.encoder_attn.q_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,910.910 INFO trainer - print_model_state_dict: model.decoder.layers.3.encoder_attn.out_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,910.910 INFO trainer - print_model_state_dict: model.decoder.layers.3.encoder_attn.out_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,911.911 INFO trainer - print_model_state_dict: model.decoder.layers.3.encoder_attn_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,911.911 INFO trainer - print_model_state_dict: model.decoder.layers.3.encoder_attn_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,912.912 INFO trainer - print_model_state_dict: model.decoder.layers.3.fc1.weight	torch.Size([3072, 768])
+2020-09-28 23:37:25,912.912 INFO trainer - print_model_state_dict: model.decoder.layers.3.fc1.bias	torch.Size([3072])
+2020-09-28 23:37:25,913.913 INFO trainer - print_model_state_dict: model.decoder.layers.3.fc2.weight	torch.Size([768, 3072])
+2020-09-28 23:37:25,913.913 INFO trainer - print_model_state_dict: model.decoder.layers.3.fc2.bias	torch.Size([768])
+2020-09-28 23:37:25,914.914 INFO trainer - print_model_state_dict: model.decoder.layers.3.final_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,914.914 INFO trainer - print_model_state_dict: model.decoder.layers.3.final_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,915.915 INFO trainer - print_model_state_dict: model.decoder.layers.4.self_attn.k_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,915.915 INFO trainer - print_model_state_dict: model.decoder.layers.4.self_attn.k_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,915.915 INFO trainer - print_model_state_dict: model.decoder.layers.4.self_attn.v_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,916.916 INFO trainer - print_model_state_dict: model.decoder.layers.4.self_attn.v_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,916.916 INFO trainer - print_model_state_dict: model.decoder.layers.4.self_attn.q_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,917.917 INFO trainer - print_model_state_dict: model.decoder.layers.4.self_attn.q_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,917.917 INFO trainer - print_model_state_dict: model.decoder.layers.4.self_attn.out_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,918.918 INFO trainer - print_model_state_dict: model.decoder.layers.4.self_attn.out_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,918.918 INFO trainer - print_model_state_dict: model.decoder.layers.4.self_attn_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,919.919 INFO trainer - print_model_state_dict: model.decoder.layers.4.self_attn_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,919.919 INFO trainer - print_model_state_dict: model.decoder.layers.4.encoder_attn.k_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,920.920 INFO trainer - print_model_state_dict: model.decoder.layers.4.encoder_attn.k_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,920.920 INFO trainer - print_model_state_dict: model.decoder.layers.4.encoder_attn.v_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,921.921 INFO trainer - print_model_state_dict: model.decoder.layers.4.encoder_attn.v_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,921.921 INFO trainer - print_model_state_dict: model.decoder.layers.4.encoder_attn.q_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,922.922 INFO trainer - print_model_state_dict: model.decoder.layers.4.encoder_attn.q_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,922.922 INFO trainer - print_model_state_dict: model.decoder.layers.4.encoder_attn.out_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,923.923 INFO trainer - print_model_state_dict: model.decoder.layers.4.encoder_attn.out_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,923.923 INFO trainer - print_model_state_dict: model.decoder.layers.4.encoder_attn_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,923.923 INFO trainer - print_model_state_dict: model.decoder.layers.4.encoder_attn_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,924.924 INFO trainer - print_model_state_dict: model.decoder.layers.4.fc1.weight	torch.Size([3072, 768])
+2020-09-28 23:37:25,924.924 INFO trainer - print_model_state_dict: model.decoder.layers.4.fc1.bias	torch.Size([3072])
+2020-09-28 23:37:25,925.925 INFO trainer - print_model_state_dict: model.decoder.layers.4.fc2.weight	torch.Size([768, 3072])
+2020-09-28 23:37:25,925.925 INFO trainer - print_model_state_dict: model.decoder.layers.4.fc2.bias	torch.Size([768])
+2020-09-28 23:37:25,926.926 INFO trainer - print_model_state_dict: model.decoder.layers.4.final_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,926.926 INFO trainer - print_model_state_dict: model.decoder.layers.4.final_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,927.927 INFO trainer - print_model_state_dict: model.decoder.layers.5.self_attn.k_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,927.927 INFO trainer - print_model_state_dict: model.decoder.layers.5.self_attn.k_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,928.928 INFO trainer - print_model_state_dict: model.decoder.layers.5.self_attn.v_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,928.928 INFO trainer - print_model_state_dict: model.decoder.layers.5.self_attn.v_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,929.929 INFO trainer - print_model_state_dict: model.decoder.layers.5.self_attn.q_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,929.929 INFO trainer - print_model_state_dict: model.decoder.layers.5.self_attn.q_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,930.930 INFO trainer - print_model_state_dict: model.decoder.layers.5.self_attn.out_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,930.930 INFO trainer - print_model_state_dict: model.decoder.layers.5.self_attn.out_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,930.930 INFO trainer - print_model_state_dict: model.decoder.layers.5.self_attn_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,931.931 INFO trainer - print_model_state_dict: model.decoder.layers.5.self_attn_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,931.931 INFO trainer - print_model_state_dict: model.decoder.layers.5.encoder_attn.k_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,932.932 INFO trainer - print_model_state_dict: model.decoder.layers.5.encoder_attn.k_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,932.932 INFO trainer - print_model_state_dict: model.decoder.layers.5.encoder_attn.v_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,933.933 INFO trainer - print_model_state_dict: model.decoder.layers.5.encoder_attn.v_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,933.933 INFO trainer - print_model_state_dict: model.decoder.layers.5.encoder_attn.q_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,934.934 INFO trainer - print_model_state_dict: model.decoder.layers.5.encoder_attn.q_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,934.934 INFO trainer - print_model_state_dict: model.decoder.layers.5.encoder_attn.out_proj.weight	torch.Size([768, 768])
+2020-09-28 23:37:25,935.935 INFO trainer - print_model_state_dict: model.decoder.layers.5.encoder_attn.out_proj.bias	torch.Size([768])
+2020-09-28 23:37:25,935.935 INFO trainer - print_model_state_dict: model.decoder.layers.5.encoder_attn_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,936.936 INFO trainer - print_model_state_dict: model.decoder.layers.5.encoder_attn_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,936.936 INFO trainer - print_model_state_dict: model.decoder.layers.5.fc1.weight	torch.Size([3072, 768])
+2020-09-28 23:37:25,937.937 INFO trainer - print_model_state_dict: model.decoder.layers.5.fc1.bias	torch.Size([3072])
+2020-09-28 23:37:25,937.937 INFO trainer - print_model_state_dict: model.decoder.layers.5.fc2.weight	torch.Size([768, 3072])
+2020-09-28 23:37:25,937.937 INFO trainer - print_model_state_dict: model.decoder.layers.5.fc2.bias	torch.Size([768])
+2020-09-28 23:37:25,938.938 INFO trainer - print_model_state_dict: model.decoder.layers.5.final_layer_norm.weight	torch.Size([768])
+2020-09-28 23:37:25,938.938 INFO trainer - print_model_state_dict: model.decoder.layers.5.final_layer_norm.bias	torch.Size([768])
+2020-09-28 23:37:25,939.939 INFO trainer - print_model_state_dict: model.decoder.layernorm_embedding.weight	torch.Size([768])
+2020-09-28 23:37:25,939.939 INFO trainer - print_model_state_dict: model.decoder.layernorm_embedding.bias	torch.Size([768])
+2020-09-28 23:37:25,939.939 INFO trainer - count_params: BartForConditionalGeneration(
+  (model): BartModel(
+    (shared): Embedding(50265, 768, padding_idx=1)
+    (encoder): BartEncoder(
+      (embed_tokens): Embedding(50265, 768, padding_idx=1)
+      (embed_positions): LearnedPositionalEmbedding(1026, 768, padding_idx=1)
+      (layers): ModuleList(
+        (0): EncoderLayer(
+          (self_attn): Attention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (self_attn_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=768, out_features=3072, bias=True)
+          (fc2): Linear(in_features=3072, out_features=768, bias=True)
+          (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        )
+        (1): EncoderLayer(
+          (self_attn): Attention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (self_attn_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=768, out_features=3072, bias=True)
+          (fc2): Linear(in_features=3072, out_features=768, bias=True)
+          (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        )
+        (2): EncoderLayer(
+          (self_attn): Attention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (self_attn_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=768, out_features=3072, bias=True)
+          (fc2): Linear(in_features=3072, out_features=768, bias=True)
+          (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        )
+        (3): EncoderLayer(
+          (self_attn): Attention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (self_attn_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=768, out_features=3072, bias=True)
+          (fc2): Linear(in_features=3072, out_features=768, bias=True)
+          (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        )
+        (4): EncoderLayer(
+          (self_attn): Attention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (self_attn_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=768, out_features=3072, bias=True)
+          (fc2): Linear(in_features=3072, out_features=768, bias=True)
+          (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        )
+        (5): EncoderLayer(
+          (self_attn): Attention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (self_attn_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=768, out_features=3072, bias=True)
+          (fc2): Linear(in_features=3072, out_features=768, bias=True)
+          (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        )
+      )
+      (layernorm_embedding): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+    )
+    (decoder): BartDecoder(
+      (embed_tokens): Embedding(50265, 768, padding_idx=1)
+      (embed_positions): LearnedPositionalEmbedding(1026, 768, padding_idx=1)
+      (layers): ModuleList(
+        (0): DecoderLayer(
+          (self_attn): Attention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (self_attn_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (encoder_attn): Attention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (encoder_attn_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=768, out_features=3072, bias=True)
+          (fc2): Linear(in_features=3072, out_features=768, bias=True)
+          (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        )
+        (1): DecoderLayer(
+          (self_attn): Attention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (self_attn_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (encoder_attn): Attention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (encoder_attn_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=768, out_features=3072, bias=True)
+          (fc2): Linear(in_features=3072, out_features=768, bias=True)
+          (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        )
+        (2): DecoderLayer(
+          (self_attn): Attention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (self_attn_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (encoder_attn): Attention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (encoder_attn_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=768, out_features=3072, bias=True)
+          (fc2): Linear(in_features=3072, out_features=768, bias=True)
+          (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        )
+        (3): DecoderLayer(
+          (self_attn): Attention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (self_attn_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (encoder_attn): Attention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (encoder_attn_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=768, out_features=3072, bias=True)
+          (fc2): Linear(in_features=3072, out_features=768, bias=True)
+          (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        )
+        (4): DecoderLayer(
+          (self_attn): Attention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (self_attn_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (encoder_attn): Attention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (encoder_attn_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=768, out_features=3072, bias=True)
+          (fc2): Linear(in_features=3072, out_features=768, bias=True)
+          (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        )
+        (5): DecoderLayer(
+          (self_attn): Attention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (self_attn_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (encoder_attn): Attention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (encoder_attn_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=768, out_features=3072, bias=True)
+          (fc2): Linear(in_features=3072, out_features=768, bias=True)
+          (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        )
+      )
+      (layernorm_embedding): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+    )
+  )
+)
+2020-09-28 23:37:25,941.941 INFO trainer - count_params:   Model Total params: 139420416
+2020-09-28 23:37:25,941.941 INFO trainer - count_params:   Model Trainable params: 139420416
+2020-09-28 23:37:25,941.941 INFO trainer - count_params:   Model Non-trainable params: 0
+2020-09-28 23:37:25,942.942 INFO trainer - train: start training epoch 1/6
+2020-09-28 23:37:25,942.942 INFO trainer - train: n_gpu = 1, visible_devices: 0
+2020-09-28 23:37:25,942.942 INFO trainer - train: number of examples per batch: 8*1=8
+2020-09-28 23:37:25,942.942 INFO trainer - train: number of iterations per epoch: 645180
+2020-09-28 23:37:25,942.942 INFO trainer - train: number of examples per epoch: 5161434
+2020-09-28 23:51:55,222.222 INFO trainer - train: evaluate at global step = 5000
+2020-09-28 23:51:55,223.223 INFO trainer - train: Step 5000 - mean train loss: 1.68
+2020-09-29 00:06:29,796.796 INFO trainer - train: evaluate at global step = 10000
+2020-09-29 00:06:29,796.796 INFO trainer - train: Step 10000 - mean train loss: 1.35
+2020-09-29 00:21:00,844.844 INFO trainer - train: evaluate at global step = 15000
+2020-09-29 00:21:00,844.844 INFO trainer - train: Step 15000 - mean train loss: 1.23
+2020-09-29 00:35:25,247.247 INFO trainer - train: evaluate at global step = 20000
+2020-09-29 00:35:25,248.248 INFO trainer - train: Step 20000 - mean train loss: 1.15
+2020-09-29 00:50:04,622.622 INFO trainer - train: evaluate at global step = 25000
+2020-09-29 00:50:04,623.623 INFO trainer - train: Step 25000 - mean train loss: 1.08
+2020-09-29 01:04:35,464.464 INFO trainer - train: evaluate at global step = 30000
+2020-09-29 01:04:35,464.464 INFO trainer - train: Step 30000 - mean train loss: 1.03
+2020-09-29 01:19:08,754.754 INFO trainer - train: evaluate at global step = 35000
+2020-09-29 01:19:08,755.755 INFO trainer - train: Step 35000 - mean train loss: 0.995
+2020-09-29 01:33:42,085.085 INFO trainer - train: evaluate at global step = 40000
+2020-09-29 01:33:42,086.086 INFO trainer - train: Step 40000 - mean train loss: 0.966
+2020-09-29 01:48:12,374.374 INFO trainer - train: evaluate at global step = 45000
+2020-09-29 01:48:12,374.374 INFO trainer - train: Step 45000 - mean train loss: 0.939
+2020-09-29 02:02:55,170.170 INFO trainer - train: evaluate at global step = 50000
+2020-09-29 02:02:55,170.170 INFO trainer - train: Step 50000 - mean train loss: 0.911
+2020-09-29 02:17:43,139.139 INFO trainer - train: evaluate at global step = 55000
+2020-09-29 02:17:43,139.139 INFO trainer - train: Step 55000 - mean train loss: 0.896
+2020-09-29 02:32:05,988.988 INFO trainer - train: evaluate at global step = 60000
+2020-09-29 02:32:05,989.989 INFO trainer - train: Step 60000 - mean train loss: 0.874
+2020-09-29 02:46:42,192.192 INFO trainer - train: evaluate at global step = 65000
+2020-09-29 02:46:42,192.192 INFO trainer - train: Step 65000 - mean train loss: 0.858
+2020-09-29 03:01:20,543.543 INFO trainer - train: evaluate at global step = 70000
+2020-09-29 03:01:20,543.543 INFO trainer - train: Step 70000 - mean train loss: 0.841
+2020-09-29 03:16:02,204.204 INFO trainer - train: evaluate at global step = 75000
+2020-09-29 03:16:02,204.204 INFO trainer - train: Step 75000 - mean train loss: 0.829
+2020-09-29 03:30:38,402.402 INFO trainer - train: evaluate at global step = 80000
+2020-09-29 03:30:38,402.402 INFO trainer - train: Step 80000 - mean train loss: 0.817
+2020-09-29 03:45:28,405.405 INFO trainer - train: evaluate at global step = 85000
+2020-09-29 03:45:28,406.406 INFO trainer - train: Step 85000 - mean train loss: 0.806
+2020-09-29 03:59:55,893.893 INFO trainer - train: evaluate at global step = 90000
+2020-09-29 03:59:55,894.894 INFO trainer - train: Step 90000 - mean train loss: 0.799
+2020-09-29 04:14:38,006.006 INFO trainer - train: evaluate at global step = 95000
+2020-09-29 04:14:38,007.007 INFO trainer - train: Step 95000 - mean train loss: 0.785
+2020-09-29 04:29:22,351.351 INFO trainer - train: evaluate at global step = 100000
+2020-09-29 04:29:22,351.351 INFO trainer - train: Step 100000 - mean train loss: 0.78
+2020-09-29 04:44:17,486.486 INFO trainer - train: evaluate at global step = 105000
+2020-09-29 04:44:17,486.486 INFO trainer - train: Step 105000 - mean train loss: 0.772
+2020-09-29 04:58:59,109.109 INFO trainer - train: evaluate at global step = 110000
+2020-09-29 04:58:59,109.109 INFO trainer - train: Step 110000 - mean train loss: 0.763
+2020-09-29 05:13:36,795.795 INFO trainer - train: evaluate at global step = 115000
+2020-09-29 05:13:36,796.796 INFO trainer - train: Step 115000 - mean train loss: 0.756
+2020-09-29 05:28:21,672.672 INFO trainer - train: evaluate at global step = 120000
+2020-09-29 05:28:21,672.672 INFO trainer - train: Step 120000 - mean train loss: 0.75
+2020-09-29 05:43:01,277.277 INFO trainer - train: evaluate at global step = 125000
+2020-09-29 05:43:01,277.277 INFO trainer - train: Step 125000 - mean train loss: 0.742
+2020-09-29 05:57:30,426.426 INFO trainer - train: evaluate at global step = 130000
+2020-09-29 05:57:30,426.426 INFO trainer - train: Step 130000 - mean train loss: 0.738
+2020-09-29 06:11:58,139.139 INFO trainer - train: evaluate at global step = 135000
+2020-09-29 06:11:58,139.139 INFO trainer - train: Step 135000 - mean train loss: 0.733
+2020-09-29 06:26:27,658.658 INFO trainer - train: evaluate at global step = 140000
+2020-09-29 06:26:27,659.659 INFO trainer - train: Step 140000 - mean train loss: 0.729
+2020-09-29 06:40:55,955.955 INFO trainer - train: evaluate at global step = 145000
+2020-09-29 06:40:55,955.955 INFO trainer - train: Step 145000 - mean train loss: 0.722
+2020-09-29 06:55:36,137.137 INFO trainer - train: evaluate at global step = 150000
+2020-09-29 06:55:36,138.138 INFO trainer - train: Step 150000 - mean train loss: 0.719
+2020-09-29 07:10:12,790.790 INFO trainer - train: evaluate at global step = 155000
+2020-09-29 07:10:12,791.791 INFO trainer - train: Step 155000 - mean train loss: 0.717
+2020-09-29 07:25:00,090.090 INFO trainer - train: evaluate at global step = 160000
+2020-09-29 07:25:00,090.090 INFO trainer - train: Step 160000 - mean train loss: 0.707
+2020-09-29 07:39:41,768.768 INFO trainer - train: evaluate at global step = 165000
+2020-09-29 07:39:41,768.768 INFO trainer - train: Step 165000 - mean train loss: 0.705
+2020-09-29 07:54:22,249.249 INFO trainer - train: evaluate at global step = 170000
+2020-09-29 07:54:22,250.250 INFO trainer - train: Step 170000 - mean train loss: 0.7
+2020-09-29 08:09:08,230.230 INFO trainer - train: evaluate at global step = 175000
+2020-09-29 08:09:08,230.230 INFO trainer - train: Step 175000 - mean train loss: 0.699
+2020-09-29 08:23:45,177.177 INFO trainer - train: evaluate at global step = 180000
+2020-09-29 08:23:45,177.177 INFO trainer - train: Step 180000 - mean train loss: 0.696
+2020-09-29 08:38:19,598.598 INFO trainer - train: evaluate at global step = 185000
+2020-09-29 08:38:19,598.598 INFO trainer - train: Step 185000 - mean train loss: 0.693
+2020-09-29 08:53:09,255.255 INFO trainer - train: evaluate at global step = 190000
+2020-09-29 08:53:09,255.255 INFO trainer - train: Step 190000 - mean train loss: 0.689
+2020-09-29 09:08:09,837.837 INFO trainer - train: evaluate at global step = 195000
+2020-09-29 09:08:09,837.837 INFO trainer - train: Step 195000 - mean train loss: 0.688
+2020-09-29 09:22:54,631.631 INFO trainer - train: evaluate at global step = 200000
+2020-09-29 09:22:54,632.632 INFO trainer - train: Step 200000 - mean train loss: 0.682
+2020-09-29 09:37:36,691.691 INFO trainer - train: evaluate at global step = 205000
+2020-09-29 09:37:36,692.692 INFO trainer - train: Step 205000 - mean train loss: 0.68
+2020-09-29 09:52:25,551.551 INFO trainer - train: evaluate at global step = 210000
+2020-09-29 09:52:25,552.552 INFO trainer - train: Step 210000 - mean train loss: 0.678
+2020-09-29 10:07:01,973.973 INFO trainer - train: evaluate at global step = 215000
+2020-09-29 10:07:01,973.973 INFO trainer - train: Step 215000 - mean train loss: 0.676
+2020-09-29 10:21:37,749.749 INFO trainer - train: evaluate at global step = 220000
+2020-09-29 10:21:37,749.749 INFO trainer - train: Step 220000 - mean train loss: 0.674
+2020-09-29 10:36:18,754.754 INFO trainer - train: evaluate at global step = 225000
+2020-09-29 10:36:18,755.755 INFO trainer - train: Step 225000 - mean train loss: 0.668
+2020-09-29 10:50:50,958.958 INFO trainer - train: evaluate at global step = 230000
+2020-09-29 10:50:50,959.959 INFO trainer - train: Step 230000 - mean train loss: 0.667
+2020-09-29 11:05:31,871.871 INFO trainer - train: evaluate at global step = 235000
+2020-09-29 11:05:31,871.871 INFO trainer - train: Step 235000 - mean train loss: 0.666
+2020-09-29 11:20:09,032.032 INFO trainer - train: evaluate at global step = 240000
+2020-09-29 11:20:09,032.032 INFO trainer - train: Step 240000 - mean train loss: 0.662
+2020-09-29 11:34:44,739.739 INFO trainer - train: evaluate at global step = 245000
+2020-09-29 11:34:44,740.740 INFO trainer - train: Step 245000 - mean train loss: 0.66
+2020-09-29 11:49:22,866.866 INFO trainer - train: evaluate at global step = 250000
+2020-09-29 11:49:22,867.867 INFO trainer - train: Step 250000 - mean train loss: 0.661
+2020-09-29 12:04:13,319.319 INFO trainer - train: evaluate at global step = 255000
+2020-09-29 12:04:13,319.319 INFO trainer - train: Step 255000 - mean train loss: 0.658
+2020-09-29 12:18:54,279.279 INFO trainer - train: evaluate at global step = 260000
+2020-09-29 12:18:54,280.280 INFO trainer - train: Step 260000 - mean train loss: 0.655
+2020-09-29 12:33:36,887.887 INFO trainer - train: evaluate at global step = 265000
+2020-09-29 12:33:36,888.888 INFO trainer - train: Step 265000 - mean train loss: 0.65
+2020-09-29 12:48:14,751.751 INFO trainer - train: evaluate at global step = 270000
+2020-09-29 12:48:14,751.751 INFO trainer - train: Step 270000 - mean train loss: 0.657
+2020-09-29 13:03:08,289.289 INFO trainer - train: evaluate at global step = 275000
+2020-09-29 13:03:08,290.290 INFO trainer - train: Step 275000 - mean train loss: 0.657
+2020-09-29 13:17:59,095.095 INFO trainer - train: evaluate at global step = 280000
+2020-09-29 13:17:59,095.095 INFO trainer - train: Step 280000 - mean train loss: 0.648
+2020-09-29 13:32:46,517.517 INFO trainer - train: evaluate at global step = 285000
+2020-09-29 13:32:46,517.517 INFO trainer - train: Step 285000 - mean train loss: 0.651
+2020-09-29 13:47:28,844.844 INFO trainer - train: evaluate at global step = 290000
+2020-09-29 13:47:28,845.845 INFO trainer - train: Step 290000 - mean train loss: 0.647
+2020-09-29 14:02:11,879.879 INFO trainer - train: evaluate at global step = 295000
+2020-09-29 14:02:11,879.879 INFO trainer - train: Step 295000 - mean train loss: 0.648
+2020-09-29 14:17:02,068.068 INFO trainer - train: evaluate at global step = 300000
+2020-09-29 14:17:02,069.069 INFO trainer - train: Step 300000 - mean train loss: 0.642
+2020-09-29 14:31:45,008.008 INFO trainer - train: evaluate at global step = 305000
+2020-09-29 14:31:45,008.008 INFO trainer - train: Step 305000 - mean train loss: 0.642
+2020-09-29 14:46:33,487.487 INFO trainer - train: evaluate at global step = 310000
+2020-09-29 14:46:33,487.487 INFO trainer - train: Step 310000 - mean train loss: 0.638
+2020-09-29 15:01:28,229.229 INFO trainer - train: evaluate at global step = 315000
+2020-09-29 15:01:28,229.229 INFO trainer - train: Step 315000 - mean train loss: 0.64
+2020-09-29 15:16:26,501.501 INFO trainer - train: evaluate at global step = 320000
+2020-09-29 15:16:26,502.502 INFO trainer - train: Step 320000 - mean train loss: 0.64
+2020-09-29 15:31:07,359.359 INFO trainer - train: evaluate at global step = 325000
+2020-09-29 15:31:07,359.359 INFO trainer - train: Step 325000 - mean train loss: 0.636
+2020-09-29 15:46:08,266.266 INFO trainer - train: evaluate at global step = 330000
+2020-09-29 15:46:08,266.266 INFO trainer - train: Step 330000 - mean train loss: 0.635
+2020-09-29 16:00:50,086.086 INFO trainer - train: evaluate at global step = 335000
+2020-09-29 16:00:50,087.087 INFO trainer - train: Step 335000 - mean train loss: 0.635
+2020-09-29 16:15:29,288.288 INFO trainer - train: evaluate at global step = 340000
+2020-09-29 16:15:29,288.288 INFO trainer - train: Step 340000 - mean train loss: 0.634
+2020-09-29 16:30:25,013.013 INFO trainer - train: evaluate at global step = 345000
+2020-09-29 16:30:25,013.013 INFO trainer - train: Step 345000 - mean train loss: 0.635
+2020-09-29 16:45:21,702.702 INFO trainer - train: evaluate at global step = 350000
+2020-09-29 16:45:21,702.702 INFO trainer - train: Step 350000 - mean train loss: 0.636
+2020-09-29 17:00:06,633.633 INFO trainer - train: evaluate at global step = 355000
+2020-09-29 17:00:06,634.634 INFO trainer - train: Step 355000 - mean train loss: 0.63
+2020-09-29 17:14:57,480.480 INFO trainer - train: evaluate at global step = 360000
+2020-09-29 17:14:57,481.481 INFO trainer - train: Step 360000 - mean train loss: 0.631
+2020-09-29 17:29:43,998.998 INFO trainer - train: evaluate at global step = 365000
+2020-09-29 17:29:43,999.999 INFO trainer - train: Step 365000 - mean train loss: 0.63
+2020-09-29 17:44:28,270.270 INFO trainer - train: evaluate at global step = 370000
+2020-09-29 17:44:28,270.270 INFO trainer - train: Step 370000 - mean train loss: 0.631
+2020-09-29 17:59:16,863.863 INFO trainer - train: evaluate at global step = 375000
+2020-09-29 17:59:16,863.863 INFO trainer - train: Step 375000 - mean train loss: 0.627
+2020-09-29 18:14:15,177.177 INFO trainer - train: evaluate at global step = 380000
+2020-09-29 18:14:15,177.177 INFO trainer - train: Step 380000 - mean train loss: 0.629
+2020-09-29 18:28:55,795.795 INFO trainer - train: evaluate at global step = 385000
+2020-09-29 18:28:55,796.796 INFO trainer - train: Step 385000 - mean train loss: 0.629
+2020-09-29 18:43:57,031.031 INFO trainer - train: evaluate at global step = 390000
+2020-09-29 18:43:57,031.031 INFO trainer - train: Step 390000 - mean train loss: 0.625
+2020-09-29 18:58:46,536.536 INFO trainer - train: evaluate at global step = 395000
+2020-09-29 18:58:46,536.536 INFO trainer - train: Step 395000 - mean train loss: 0.627
+2020-09-29 19:13:22,318.318 INFO trainer - train: evaluate at global step = 400000
+2020-09-29 19:13:22,318.318 INFO trainer - train: Step 400000 - mean train loss: 0.626
+2020-09-29 19:27:59,041.041 INFO trainer - train: evaluate at global step = 405000
+2020-09-29 19:27:59,041.041 INFO trainer - train: Step 405000 - mean train loss: 0.627
+2020-09-29 19:42:42,345.345 INFO trainer - train: evaluate at global step = 410000
+2020-09-29 19:42:42,345.345 INFO trainer - train: Step 410000 - mean train loss: 0.625
+2020-09-29 19:57:24,599.599 INFO trainer - train: evaluate at global step = 415000
+2020-09-29 19:57:24,599.599 INFO trainer - train: Step 415000 - mean train loss: 0.623
+2020-09-29 20:12:15,170.170 INFO trainer - train: evaluate at global step = 420000
+2020-09-29 20:12:15,170.170 INFO trainer - train: Step 420000 - mean train loss: 0.624
+2020-09-29 20:27:01,430.430 INFO trainer - train: evaluate at global step = 425000
+2020-09-29 20:27:01,430.430 INFO trainer - train: Step 425000 - mean train loss: 0.62
+2020-09-29 20:42:00,982.982 INFO trainer - train: evaluate at global step = 430000
+2020-09-29 20:42:00,982.982 INFO trainer - train: Step 430000 - mean train loss: 0.622
+2020-09-29 20:56:46,932.932 INFO trainer - train: evaluate at global step = 435000
+2020-09-29 20:56:46,933.933 INFO trainer - train: Step 435000 - mean train loss: 0.623
+2020-09-29 21:11:41,998.998 INFO trainer - train: evaluate at global step = 440000
+2020-09-29 21:11:41,998.998 INFO trainer - train: Step 440000 - mean train loss: 0.62
+2020-09-29 21:26:39,366.366 INFO trainer - train: evaluate at global step = 445000
+2020-09-29 21:26:39,367.367 INFO trainer - train: Step 445000 - mean train loss: 0.622
+2020-09-29 21:41:46,117.117 INFO trainer - train: evaluate at global step = 450000
+2020-09-29 21:41:46,118.118 INFO trainer - train: Step 450000 - mean train loss: 0.62
+2020-09-29 21:56:26,196.196 INFO trainer - train: evaluate at global step = 455000
+2020-09-29 21:56:26,197.197 INFO trainer - train: Step 455000 - mean train loss: 0.619
+2020-09-29 22:11:23,978.978 INFO trainer - train: evaluate at global step = 460000
+2020-09-29 22:11:23,978.978 INFO trainer - train: Step 460000 - mean train loss: 0.62
+2020-09-29 22:26:40,980.980 INFO trainer - train: evaluate at global step = 465000
+2020-09-29 22:26:40,980.980 INFO trainer - train: Step 465000 - mean train loss: 0.62
+2020-09-29 22:41:36,750.750 INFO trainer - train: evaluate at global step = 470000
+2020-09-29 22:41:36,750.750 INFO trainer - train: Step 470000 - mean train loss: 0.615
+2020-09-29 22:56:44,715.715 INFO trainer - train: evaluate at global step = 475000
+2020-09-29 22:56:44,715.715 INFO trainer - train: Step 475000 - mean train loss: 0.619
+2020-09-29 23:11:35,227.227 INFO trainer - train: evaluate at global step = 480000
+2020-09-29 23:11:35,227.227 INFO trainer - train: Step 480000 - mean train loss: 0.616
+2020-09-29 23:26:29,361.361 INFO trainer - train: evaluate at global step = 485000
+2020-09-29 23:26:29,361.361 INFO trainer - train: Step 485000 - mean train loss: 0.618
+2020-09-29 23:41:22,640.640 INFO trainer - train: evaluate at global step = 490000
+2020-09-29 23:41:22,640.640 INFO trainer - train: Step 490000 - mean train loss: 0.613
+2020-09-29 23:56:14,450.450 INFO trainer - train: evaluate at global step = 495000
+2020-09-29 23:56:14,450.450 INFO trainer - train: Step 495000 - mean train loss: 0.614
+2020-09-30 00:11:14,217.217 INFO trainer - train: evaluate at global step = 500000
+2020-09-30 00:11:14,218.218 INFO trainer - train: Step 500000 - mean train loss: 0.614
+2020-09-30 00:26:08,906.906 INFO trainer - train: evaluate at global step = 505000
+2020-09-30 00:26:08,907.907 INFO trainer - train: Step 505000 - mean train loss: 0.611
+2020-09-30 00:41:03,750.750 INFO trainer - train: evaluate at global step = 510000
+2020-09-30 00:41:03,751.751 INFO trainer - train: Step 510000 - mean train loss: 0.615
+2020-09-30 00:55:57,909.909 INFO trainer - train: evaluate at global step = 515000
+2020-09-30 00:55:57,909.909 INFO trainer - train: Step 515000 - mean train loss: 0.613
+2020-09-30 01:10:43,942.942 INFO trainer - train: evaluate at global step = 520000
+2020-09-30 01:10:43,943.943 INFO trainer - train: Step 520000 - mean train loss: 0.616
+2020-09-30 01:25:38,678.678 INFO trainer - train: evaluate at global step = 525000
+2020-09-30 01:25:38,679.679 INFO trainer - train: Step 525000 - mean train loss: 0.614
+2020-09-30 01:40:41,783.783 INFO trainer - train: evaluate at global step = 530000
+2020-09-30 01:40:41,784.784 INFO trainer - train: Step 530000 - mean train loss: 0.613
+2020-09-30 01:55:31,932.932 INFO trainer - train: evaluate at global step = 535000
+2020-09-30 01:55:31,932.932 INFO trainer - train: Step 535000 - mean train loss: 0.611
+2020-09-30 02:10:21,618.618 INFO trainer - train: evaluate at global step = 540000
+2020-09-30 02:10:21,619.619 INFO trainer - train: Step 540000 - mean train loss: 0.611
+2020-09-30 02:25:19,077.077 INFO trainer - train: evaluate at global step = 545000
+2020-09-30 02:25:19,077.077 INFO trainer - train: Step 545000 - mean train loss: 0.615
+2020-09-30 02:40:24,647.647 INFO trainer - train: evaluate at global step = 550000
+2020-09-30 02:40:24,647.647 INFO trainer - train: Step 550000 - mean train loss: 0.61
+2020-09-30 02:55:25,851.851 INFO trainer - train: evaluate at global step = 555000
+2020-09-30 02:55:25,852.852 INFO trainer - train: Step 555000 - mean train loss: 0.615
+2020-09-30 03:10:25,530.530 INFO trainer - train: evaluate at global step = 560000
+2020-09-30 03:10:25,531.531 INFO trainer - train: Step 560000 - mean train loss: 0.613
+2020-09-30 03:25:18,906.906 INFO trainer - train: evaluate at global step = 565000
+2020-09-30 03:25:18,907.907 INFO trainer - train: Step 565000 - mean train loss: 0.611
+2020-09-30 03:40:27,584.584 INFO trainer - train: evaluate at global step = 570000
+2020-09-30 03:40:27,585.585 INFO trainer - train: Step 570000 - mean train loss: 0.613
+2020-09-30 03:55:18,952.952 INFO trainer - train: evaluate at global step = 575000
+2020-09-30 03:55:18,952.952 INFO trainer - train: Step 575000 - mean train loss: 0.61
+2020-09-30 04:10:18,053.053 INFO trainer - train: evaluate at global step = 580000
+2020-09-30 04:10:18,054.054 INFO trainer - train: Step 580000 - mean train loss: 0.612
+2020-09-30 04:25:01,052.052 INFO trainer - train: evaluate at global step = 585000
+2020-09-30 04:25:01,053.053 INFO trainer - train: Step 585000 - mean train loss: 0.609
+2020-09-30 04:40:12,009.009 INFO trainer - train: evaluate at global step = 590000
+2020-09-30 04:40:12,009.009 INFO trainer - train: Step 590000 - mean train loss: 0.61
+2020-09-30 04:55:18,535.535 INFO trainer - train: evaluate at global step = 595000
+2020-09-30 04:55:18,535.535 INFO trainer - train: Step 595000 - mean train loss: 0.608
+2020-09-30 05:09:59,218.218 INFO trainer - train: evaluate at global step = 600000
+2020-09-30 05:09:59,218.218 INFO trainer - train: Step 600000 - mean train loss: 0.607
+2020-09-30 05:24:49,209.209 INFO trainer - train: evaluate at global step = 605000
+2020-09-30 05:24:49,210.210 INFO trainer - train: Step 605000 - mean train loss: 0.606
+2020-09-30 05:39:50,424.424 INFO trainer - train: evaluate at global step = 610000
+2020-09-30 05:39:50,424.424 INFO trainer - train: Step 610000 - mean train loss: 0.607
+2020-09-30 05:54:56,672.672 INFO trainer - train: evaluate at global step = 615000
+2020-09-30 05:54:56,673.673 INFO trainer - train: Step 615000 - mean train loss: 0.608
+2020-09-30 06:10:05,075.075 INFO trainer - train: evaluate at global step = 620000
+2020-09-30 06:10:05,076.076 INFO trainer - train: Step 620000 - mean train loss: 0.604
+2020-09-30 06:25:18,377.377 INFO trainer - train: evaluate at global step = 625000
+2020-09-30 06:25:18,377.377 INFO trainer - train: Step 625000 - mean train loss: 0.609
+2020-09-30 06:40:07,685.685 INFO trainer - train: evaluate at global step = 630000
+2020-09-30 06:40:07,685.685 INFO trainer - train: Step 630000 - mean train loss: 0.604
+2020-09-30 06:55:04,296.296 INFO trainer - train: evaluate at global step = 635000
+2020-09-30 06:55:04,296.296 INFO trainer - train: Step 635000 - mean train loss: 0.607
+2020-09-30 07:10:10,673.673 INFO trainer - train: evaluate at global step = 640000
+2020-09-30 07:10:10,673.673 INFO trainer - train: Step 640000 - mean train loss: 0.605
+2020-09-30 07:25:00,426.426 INFO trainer - train: evaluate at global step = 645000
+2020-09-30 07:25:00,426.426 INFO trainer - train: Step 645000 - mean train loss: 0.605
+2020-09-30 07:25:32,794.794 INFO utils - save_ck: save model weights and tokenizer to tmp/pt_bart-base_translation/ck_at_epoch_1
+2020-09-30 07:25:32,913.913 INFO configuration_utils - save_pretrained: Configuration saved in tmp/pt_bart-base_translation/ck_at_epoch_1/config.json
+2020-09-30 07:25:33,223.223 INFO modeling_utils - save_pretrained: Model weights saved in tmp/pt_bart-base_translation/ck_at_epoch_1/pytorch_model.bin
