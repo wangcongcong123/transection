@@ -7,14 +7,15 @@
 ```python
 # pip install transformers
 from transformers import AutoTokenizer, AutoModelWithLMHead
+
 tokenizer = AutoTokenizer.from_pretrained("congcongwang/bart-base-en-zh")
-model = AutoModelWithLMHead.from_pretrained("congcongwang/bart-base-en-zh")	
+model = AutoModelWithLMHead.from_pretrained("congcongwang/bart-base-en-zh")
 examples = ["Truth, good and beauty have always been considered as the three top pursuits of human beings",
             "Warm wind caresses my face",
             "Sang Lan is one of the best athletes in our country."]
-inputs = tokenizer(examples,padding=True, return_tensors="pt")
-outputs = model.generate(**inputs,max_length=128)
-print([tokenizer.decode(ids,skip_special_tokens=True) for ids in outputs])
+inputs = tokenizer(examples, padding=True, return_tensors="pt")
+outputs = model.generate(**inputs, max_length=128)
+print([tokenizer.decode(ids, skip_special_tokens=True) for ids in outputs])
 # print
 # ['真理、善和美，一直被认为是人类的三大追求。', '温暖的风抚摸我的脸', '萨兰是我国最好的运动员之一。']
 ```
