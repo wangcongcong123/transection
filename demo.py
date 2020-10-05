@@ -12,7 +12,7 @@ model = BartForConditionalGeneration.from_pretrained(model_name_or_path)
 # or Tensorflow 2.0
 # model = BartForConditionalGeneration.from_pretrained(model_name_or_path)
 tokenizer = BartTokenizer.from_pretrained(model_name_or_path)
-# Batch size 2. change "pt" to "tf" if using Tensorflow 2.0
+# Batch size 3. change "pt" to "tf" if using Tensorflow 2.0
 inputs = tokenizer(examples,padding=True, return_tensors="pt").to(device)
 model.eval().to(device)
 outputs = model.generate(**inputs,max_length=128)
