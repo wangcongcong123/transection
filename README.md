@@ -1,8 +1,8 @@
-## Transformers for English to Chinese Translation  (微调transformers从英文到中文的翻译器).
+## Transection: Transformers for English to Chinese Translation  (微调transformers从英文到中文的翻译器).
 
 <!--This repository comes with [the blog](#). -->
 
-### [Demo](demo.py)
+### [BART Demo](demo.py)
 
 ```python
 # pip install transformers
@@ -104,6 +104,7 @@ This repository welcomes feedback from the great community in offering advice on
 - Train a sequence-to-sequence BART-base on the dataset from scratch rather than fine-tune from its checkpoint.
 - Fine-tune starting from [MarianMT checkpoints](https://huggingface.co/models?filter=marian).
  - Expand the dataset from various domains (i.e, makes it more general overall).
+ - Train on smaller sequence to sequence transformers?
 
 ### References
 - [Existing En2zh MarianMT Checkpoint](https://huggingface.co/Helsinki-NLP/opus-mt-en-zh)
