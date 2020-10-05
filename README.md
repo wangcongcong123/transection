@@ -36,6 +36,8 @@ Here is [a pre-processed version of the train set](https://ucdcs-student.ucd.ie/
 
 Download [the train set](https://ucdcs-student.ucd.ie/~cwang/data/translation_2019zh/train.zip) and replace it with `./data/train.json` where the `validation set` is also in.
 
+#### Start fine-tuning
+
 Then fine-tuning it by simply running the following script:
 
 ```bash
