@@ -1,4 +1,4 @@
-## Transection: Transformers for English to Chinese Translation  (微调transformers从英文到中文的翻译器).
+## Transection: Transformers for English to Chinese Translation  (基于transformers从英文到中文的翻译器).
 
 <!--This repository comes with [the blog](#). -->
 
@@ -20,6 +20,8 @@ print([tokenizer.decode(ids,skip_special_tokens=True) for ids in outputs])
 ```
  
 ### Customize fine-tuning
+
+Let's fine-tune from `bart-base` on a customized dataset here as an example.
 
 #### Get ready
 ```bash
