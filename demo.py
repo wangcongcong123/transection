@@ -19,7 +19,7 @@ outputs = model.generate(**inputs,max_length=128)
 print("customized model outputs:")
 print([tokenizer.decode(ids,skip_special_tokens=True) for ids in outputs])
 
-# as a comparison, let's try the some examples on "Helsinki-NLP/opus-mt-en-zh"
+# as a comparison, let's try the same examples on "Helsinki-NLP/opus-mt-en-zh"
 model_name_or_path="Helsinki-NLP/opus-mt-en-zh"
 tokenizer = AutoTokenizer.from_pretrained(model_name_or_path)
 model = AutoModelWithLMHead.from_pretrained(model_name_or_path)
