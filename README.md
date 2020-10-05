@@ -114,5 +114,5 @@ This repository welcomes feedback from the great community in offering advice on
 ### References
 - [Existing En2zh MarianMT Checkpoint](https://huggingface.co/Helsinki-NLP/opus-mt-en-zh)
 - [En2zh Dataset](https://github.com/brightmart/nlp_chinese_corpus)
-- [BART paper](https://huggingface.co/transformers/model_doc/bart.html)
-- [Transformers documentation](https://arxiv.org/abs/1910.13461)
+- [BART paper](https://arxiv.org/abs/1910.13461)
+- [Transformers documentation](https://huggingface.co/transformers/model_doc/bart.html)
