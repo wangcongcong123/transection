@@ -1,4 +1,4 @@
-## Transection: Translating English to Chinese via fine-tuning BART (微调一个基于BART的英文到中文的翻译器).
+## Transformers for English to Chinese Translation  (微调transformers从英文到中文的翻译器).
 
 <!--This repository comes with [the blog](#). -->
 
