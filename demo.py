@@ -12,14 +12,14 @@ model = BartForConditionalGeneration.from_pretrained(model_name_or_path)
 # or Tensorflow 2.0
 # model = BartForConditionalGeneration.from_pretrained(model_name_or_path)
 tokenizer = BartTokenizer.from_pretrained(model_name_or_path)
-# Batch size 2. change "pt" to "tf" if using Tensorflow 2.0
+# Batch size 3. change "pt" to "tf" if using Tensorflow 2.0
 inputs = tokenizer(examples,padding=True, return_tensors="pt").to(device)
 model.eval().to(device)
 outputs = model.generate(**inputs,max_length=128)
 print("customized model outputs:")
 print([tokenizer.decode(ids,skip_special_tokens=True) for ids in outputs])
 
-# as a comparison, let's try the some examples on "Helsinki-NLP/opus-mt-en-zh"
+# as a comparison, let's try the same examples on "Helsinki-NLP/opus-mt-en-zh"
 model_name_or_path="Helsinki-NLP/opus-mt-en-zh"
 tokenizer = AutoTokenizer.from_pretrained(model_name_or_path)
 model = AutoModelWithLMHead.from_pretrained(model_name_or_path)
