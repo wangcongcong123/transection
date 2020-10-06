@@ -81,7 +81,7 @@ The following plots the training loss trend using the default parameters ([plot_
     <img src="loss.png" width="400"/>
     <br>
 <p>
-
+ 
 ### Evaluation
 
 As commonly practiced in the literature, we use sacrebleu here to measure the performance of the trained models. As a comparison, the checkpoint `Helsinki-NLP/opus-mt-en-zh` from [HF's models hub](https://huggingface.co/Helsinki-NLP/opus-mt-en-zh) is measured as well. The checkpoint is what I can found the most popular one (as indicated by the number of being downloaded) in English to Chinese translation in the hub. Notice: the `opus-mt-en-zh` checkpoint is trained based on [a smaller BART](extra/opus-mt-en-zh) with around 77M parameters (as compared to [ours here](extra/bart-base) with around 139M parameters) but it is trained on a collection of 41M pairs that are around 8 times of the customized one described in this repository.

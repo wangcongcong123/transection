@@ -18,7 +18,7 @@ setup(
     install_requires=[
         "tqdm",
         "sacrebleu",
-        "datasets",
+        "datasets==1.1.2",
         "transformers==3.1.0"
     ],
     classifiers=[

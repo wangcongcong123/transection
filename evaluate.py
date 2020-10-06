@@ -30,12 +30,6 @@ if __name__ == '__main__':
 
     count_params(model, logger, print_details=True)
 
-    # prepare dataset
-    # program gets stuck when loading dataset if not having the following operation (a weird problem both on my windows desktop and my friend's linux server)
-    pyarrow_path = os.path.join(HF_DATASETS_CACHE, "translation", "0.0.0")
-    if not os.path.isdir(pyarrow_path):
-        os.makedirs(pyarrow_path, exist_ok=True)
-
     dataset = load_dataset("data_scripts/translation.py")
     train, validation = dataset["train"], dataset["validation"]
 

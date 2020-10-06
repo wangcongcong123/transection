@@ -64,10 +64,6 @@ if __name__ == '__main__':
     tokenizer = AutoTokenizer.from_pretrained(args.model_select)
 
     if not os.path.isdir(f".cache/{args.output_path}"):
-        # program gets stuck when loading dataset if not having the following operation (a weird problem both on my windows desktop and my friend's linux server)
-        pyarrow_path = os.path.join(HF_DATASETS_CACHE, args.dataset_name, "0.0.0")
-        if not os.path.isdir(pyarrow_path):
-            os.makedirs(pyarrow_path, exist_ok=True)
 
         dataset = load_dataset(f"data_scripts/{args.dataset_name}.py")
         encoded = dataset.map(convert_to_features, batched=True)
